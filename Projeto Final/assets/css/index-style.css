@@ -1,0 +1,61 @@
+/*Fonte*/
+.aluno,.title-index,.nome-aluno,.link-categorias {
+  font-family: 'Merriweather', serif;
+}
+.descricao-aluno,.descricao-categorias {
+  font-family: 'Montserrat', sans-serif;
+}
+/* index.html */
+/*APRESENTACAO*/
+.aluno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size:2rem;
+  color:#283F80;
+}
+.title-index {
+  font-size:5rem;
+  font-weight: bold;
+  color:#4F7EFF;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.imagem-aluno {
+  width: 66%;
+  box-shadow: 0 0 10px;
+}
+.taxa-atual {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.taxa-ideal {
+  font-weight: bold;
+  font-size:1.5rem;
+  color:#283F80;
+  max-width: 80%;
+}
+/*LINKS PARA AS CATEGORIAS*/
+.categorias {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+.box-categorias {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 0 1rem;
+}
+.link-categorias {
+  font-size:2rem;
+  font-weight: bold;
+}

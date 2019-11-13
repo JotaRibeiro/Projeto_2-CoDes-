@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Benzefly </title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/base.css" rel="stylesheet">
+  <link href="assets/css/index-style.css" rel="stylesheet">
+  <script src="assets/js/codes.js"></script>
+  <script src="assets/js/index.js"></script>
+  <meta charset="utf-8">
+</head>
+
+<body class="body">
+  <header class="header" >
+    <img class="logo" src="http://picsum.photos/200/200/?random" alt="logo">
+    <nav class="main-menu" >
+      <h1 class="menu-title" >
+        Benzefly
+      </h1>
+
+      <figure class="menu-figure" >
+        <a href="#"><img class="menu-image" src="http://picsum.photos/200/200/?random" alt="Abrir Menu"></a>
+      </figure>
+
+      <ul class="menu-list">
+        {{#each portifolio}}
+        <li class="menu-item" ><a class= 'link' href="categoria.html?key={{@key}}">{{@key}}</a></li>
+        {{/each}}
+
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main" >
+
+    <figure class="aluno">
+      <h1 class ="title-index" >Taxa de Benzeno Atual</h1>
+      <img  class="imagem-aluno" src='http://picsum.photos/450/250/?random' alt="imagem-aluno">
+      <h2   class="taxa-atual" >Taxa atual: 6 ug/L</h2>
+      <h3   class="taxa-ideal" >Taxa ideal: 5 ug/L</h3>
+    </figure>
+
+    <ul class="categorias">
+      {{#each portifolio}}
+      <li class="box-categorias">
+        <h3 class="link-categorias" ><a class= 'link' href="categoria.html?key={{@key}}">{{@key}}</a></h3>
+      </li>
+      {{/each}}
+
+    </ul>
+  </main>
+</body>
+</html>
