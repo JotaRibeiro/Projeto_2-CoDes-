@@ -28,6 +28,7 @@ body{
 
 p a{
 	font-family: 'Roboto Condensed', sans-serif;
+	
 }
 
 .c1 img{
@@ -80,7 +81,6 @@ p a{
 }
 
 .c22-normal p{
-	/*width: 100%;*/
 	font-size: 4rem;
 	align-items: center;
 	flex-grow: 2;
@@ -136,8 +136,8 @@ div.circulo {
 div.circulo2{
 	border-style:solid;
     border-radius:100%;
-    height: 15rem;
-    width:15rem;
+    height: 18rem;
+    width:18rem;
     position: relative;
     margin: 4rem 0;
     background-color: #ffb54f;
@@ -183,3 +183,47 @@ div.c23 p {
 .c33 a{
 
 }
+
+.teste {
+	position: absolute;
+	top: 0;
+	display: block;
+	left: -40rem;
+	transition: all 0.5s;
+	width: 40rem;
+	/*font-size: 15rem;*/
+}
+
+.lateral {
+	display: table-cell;
+
+}
+.imagem_lado {
+	display: flex;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-image: url('../img/menu.png');
+    background-size: cover;
+    width: 14rem;
+    height: 14rem;
+
+}
+
+
+/*.imagem_lado:hover + .teste{
+    left: 0;
+    transition: all 0.5s;
+  }*/
+/*.teste:hover {
+    left: 0;
+    transition: all 0.5s;
+  }*/
+
+.imagem_lado:hover + .teste{
+    left: 0;
+    transition: all 0.5s;
+  }
+.teste:hover {
+    left: 0;
+    transition: all 0.5s;
+  }
