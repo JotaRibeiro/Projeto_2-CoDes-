@@ -131,6 +131,7 @@ div.circulo {
     margin: 4rem 0;
     background-color: #ffb54f;
     margin-left: 10rem;
+    z-index: -1;
     }
 
 div.circulo2{
@@ -209,6 +210,17 @@ div.c23 p {
 
 }
 
+.c22-efeito p{
+	font-size: 4rem;
+	align-items: left;
+	flex-grow: 2;
+	margin-top: 6rem;
+	margin-left: 6rem;
+	color: black;
+	text-align: left;
+}
+
+
 
 /*.imagem_lado:hover + .teste{
     left: 0;
@@ -219,11 +231,15 @@ div.c23 p {
     transition: all 0.5s;
   }*/
 
+.show-menu{
+	left: 0px;
+}
+
 .imagem_lado:hover + .teste{
     left: 0;
     transition: all 0.5s;
   }
-.teste:hover {
+.imagem_lado:hover {
     left: 0;
     transition: all 0.5s;
   }
