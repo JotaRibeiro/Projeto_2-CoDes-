@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', function(){
 	})
 
 
-	window.removeEventListener('click', function() {
-	    var jota = document.getElementById("window");
-	    jota.classList.remove("show-menu");
+	// window.removeEventListener('click', function() {
+	//     var jota = document.getElementById("window");
+	//     jota.classList.remove("show-menu");
 
-	    console.log('teste')
-	})
+	//     console.log('teste')
+	// })
 
 
 

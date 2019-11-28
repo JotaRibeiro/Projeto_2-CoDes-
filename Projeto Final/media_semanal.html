@@ -5,44 +5,97 @@
 	<script type ="text/javascript" src="assets/js/menu.js"></script>
 	<link href="assets/css/reset.css" rel="reset">
 	<link href="assets/css/estilo.css" rel="stylesheet">
+	<link href="assets/css/dropdown.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 	<meta charset="utf-8"/>
 </head>
 <body>
-	<div class="container1">
-		<div class="c1">
-			<img src="assets/img/menu.png">
+	<div class="lateral">
+		<div class="teste" id="myDIV">
+		  <div class="ordena">
+		   <div class="dropdown-0">
+		    <button class="dropbtn-0"><a href="home.html" style="text-decoration: none; color: white">Home</a>
+		    <div class="dropdown-content-0">
+		      
+		    </div>
+		   </div>
+		  <div class="dropdown-1">
+		    <button class="dropbtn-1">Médias</button>
+		    <div class="dropdown-content-1">
+		      <a href="media_diaria.html">Média Diária</a>
+		      <a href="media_semanal.html">Média Semanal</a>
+		      <a href="media_mensal.html">Média Mensal</a>
+		    </div>
+		   </div>
+		  <div class="dropdown-2">
+		    <button class="dropbtn-2">Históricos</button>
+		    <div class="dropdown-content-2">
+		      <a href="historico_diario.html">Histórico Diário</a>
+		      <a href="historico_semanal.html">Histórico Semanal</a>
+		      <a href="historico_mensal.html">Histórico Mensal</a>
+		    </div>
+		  </div>
+		  <div class="dropdown-3">
+		    <button class="dropbtn-3">Efeitos</button>
+		    <div class="dropdown-content-3">
+		      <a href="efeitos_diarios.html">Efeitos Diários</a>
+		      <a href="efeitos_semanais.html">Efeitos Semanais</a>
+		      <a href="efeitos_mensais.html">Efeitos Mensais</a>
+		    </div>
+		  </div>
+		  <div class="dropdown-4">
+		    <button class="dropbtn-4">Recomendações</button>
+		    <div class="dropdown-content-4">
+		      <a href="recomendacoes_diarias.html">Recomendação Diária</a>
+		      <a href="recomendacoes_semanais.html">Recomendação Semanal</a>
+		      <a href="recomendacoes_mensais.html">Recomendação Mensal</a>
+		    </div>
+		  </div>
 		</div>
-		<div class="c1">
-			<a href="home.html" style="text-decoration: none; color: black"><p>BenzeFly</p></a>
-		</div>
-		<div class="c1">
-			<img src="assets/img/user.png">
 		</div>
 	</div>
 
-	<div class="container2">
-		<div class="c211">
-			<a href="home.html"><img src="assets/img/seta.png" style="width: 7rem"></a>
-			<p style="margin-top: 2rem; margin-left: 2rem">Média Semanal</p>
+	<div class="lateral">
+		<div class="container1">
+			<div class="c1">
+				<button class="imagem_lado"></button>
+			</div>
+			<!-- <div class="c1">
+				<img src="assets/img/menu.png">
+			</div> -->
+			<div class="c1">
+				<a href="home.html" style="text-decoration: none; color: black"><p>BenzeFly</p></a>
+			</div>
+			<div class="c1">
+				<a href="perfil.html"><img src="assets/img/user.png"></a>
+			</div>
 		</div>
-		<img src="assets/img/semanal.png" style="width: 55rem; margin-left: 5.5rem">
-		<div class="c22-normal">
-			<p style="color:#eb5848">CUIDADO!</p>
-			<p> Máxima semanal</p><p>ultrapassada em:</p>
+
+		<div class="container2">
+			<div class="c211">
+				<a href="home.html"><img src="assets/img/seta.png" style="width: 7rem"></a>
+				<p style="margin-top: 2rem; margin-left: 2rem; font-size: 6rem">Média Semanal</p>
+			</div>
+			<img src="assets/img/semanal.png" style="width: 55rem; margin-left: 5.5rem">
+			<div class="c22-normal">
+				<p style="color:#eb5848">CUIDADO!</p>
+				<p> Máxima semanal</p><p>ultrapassada em:</p>
+			</div>
+			<div class="circulo2">
+				<div class="c23">
+					<p style="color:black"> 2% </p>
+				</div>
+			</div>
 		</div>
-		<div class="circulo2">
-			<div class="c23">
-				<p style="color:black"> 2% </p>
+
+		<div class="container3">
+			<div class="c33">
+				<a href="historico_semanal.html" style="text-decoration: none; color: black"><p>Histórico</p></a>
 			</div>
 		</div>
 	</div>
-
-	<div class="container3">
-		<div class="c33">
-			<a href="historico_semanal.html" style="text-decoration: none; color: black"><p>Histórico</p></a>
-		</div>
-	</div>
+</div>
 </body>
 
 </html>

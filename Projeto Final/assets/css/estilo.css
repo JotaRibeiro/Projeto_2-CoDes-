@@ -20,16 +20,18 @@ body{
 .c1 p{
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 8rem;
+	font-size: 7rem;
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 	flex-grow: 2;
+	font-family: 'Roboto Slab', serif;
 }
 
 p a{
 	font-family: 'Roboto Condensed', sans-serif;
-	
 }
+
+
 
 .c1 img{
 	width: 13rem;
@@ -46,12 +48,13 @@ p a{
 }
 .c21 p{
 	width: 100%;
-	font-size: 7rem;
+	font-size: 6rem;
 	color: #ff8a4c;
 	text-align: center;
 	align-items: center;
 	flex-grow: 2;
 	margin: 0px;
+	font-family: 'Roboto Slab', serif;
 }
 
 .c211 p{
@@ -62,6 +65,7 @@ p a{
 	align-items: center;
 	flex-grow: 2;
 	margin: 0px;
+	font-family: 'Roboto Slab', serif;
 }
 
 
@@ -78,6 +82,7 @@ p a{
 	align-items: center;
 	flex-grow: 2;
 	margin: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .c22-normal p{
@@ -87,6 +92,7 @@ p a{
 	margin: 0px;
 	color: black;
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container3 {
@@ -159,6 +165,7 @@ div.c23 {
 div.c23 p {
 	margin: 0px;
 	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -169,6 +176,7 @@ div.c23 p {
 	flex-grow: 2;
 	margin: 0px;
 	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -179,9 +187,11 @@ div.c23 p {
 	flex-grow: 2;
 	margin: 0px;
 	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .c33 a{
+	font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -218,6 +228,7 @@ div.c23 p {
 	margin-left: 6rem;
 	color: black;
 	text-align: left;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 
